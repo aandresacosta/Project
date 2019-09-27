@@ -7,10 +7,20 @@ import { AutoresComponent } from './autores/autores.component';
 import { ExistenciaComponent } from './existencia/existencia.component';
 import { LibroComponent } from './libro/libro.component';
 import { TipoComponent } from './tipo/tipo.component';
+import { AreasComponent } from './areas/areas.component';
+import { EditorialComponent } from './editorial/editorial.component';
 
 
 @NgModule({
-  declarations: [BibliotecaComponent, AutoresComponent, ExistenciaComponent, LibroComponent, TipoComponent],
+  declarations: [
+    BibliotecaComponent,
+    AutoresComponent,
+    ExistenciaComponent,
+    LibroComponent,
+    TipoComponent,
+    AreasComponent,
+    EditorialComponent
+  ],
   imports: [
     CommonModule,
     BibliotecaRoutingModule
