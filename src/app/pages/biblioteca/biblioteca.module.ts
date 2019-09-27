@@ -12,15 +12,7 @@ import { EditorialComponent } from './editorial/editorial.component';
 
 
 @NgModule({
-  declarations: [
-    BibliotecaComponent,
-    AutoresComponent,
-    ExistenciaComponent,
-    LibroComponent,
-    TipoComponent,
-    AreasComponent,
-    EditorialComponent
-  ],
+  declarations: [BibliotecaComponent,AutoresComponent,ExistenciaComponent,LibroComponent,TipoComponent,AreasComponent,EditorialComponent],
   imports: [
     CommonModule,
     BibliotecaRoutingModule
