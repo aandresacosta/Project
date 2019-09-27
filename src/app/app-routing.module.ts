@@ -19,6 +19,10 @@ const routes: Routes = [
         loadChildren: './pages/administration/administration.module#AdministrationModule'
       },
       {
+        path: 'biblioteca',
+        loadChildren: './pages/biblioteca/biblioteca.module#BibliotecaModule'
+      },
+      {
         path: 'academic',
         loadChildren: './pages/academic/academic.module#AcademicModule'
       },
@@ -29,10 +33,6 @@ const routes: Routes = [
       {
         path: 'estudiantes',
         loadChildren: './pages/estudiantes/estudiantes.module#EstudiantesModule'
-      },
-      {
-        path: 'biblioteca',
-        loadChildren: './pages/biblioteca/biblioteca.module#BibliotecaModule'
       }
     ]
   },
