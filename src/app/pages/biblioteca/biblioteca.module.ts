@@ -1,6 +1,7 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 
+import {FormsModule, ReactiveFormsModule} from "@angular/forms"
 import { BibliotecaRoutingModule } from './biblioteca-routing.module';
 import { BibliotecaComponent } from './biblioteca.component';
 import { AutoresComponent } from './autores/autores.component';
@@ -15,7 +16,9 @@ import { EditorialComponent } from './editorial/editorial.component';
   declarations: [BibliotecaComponent,AutoresComponent,ExistenciaComponent,LibroComponent,TipoComponent,AreasComponent,EditorialComponent],
   imports: [
     CommonModule,
-    BibliotecaRoutingModule
+    BibliotecaRoutingModule,
+    FormsModule,
+    ReactiveFormsModule
   ]
 })
 export class BibliotecaModule { }
