@@ -6,7 +6,12 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./existencia.component.scss']
 })
 export class ExistenciaComponent implements OnInit {
-
+  public titulo= "formulario de existencia";
+  public nombre : String;
+  public apellido: String;
+  public fec_nac: String; 
+  public nacionalidad: String; 
+  
   constructor() { }
 
   ngOnInit() {

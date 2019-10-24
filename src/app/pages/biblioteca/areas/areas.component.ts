@@ -6,6 +6,8 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./areas.component.scss']
 })
 export class AreasComponent implements OnInit {
+  public titulo= "formulario de areas";
+  public genero : String;
 
   constructor() { }
 
